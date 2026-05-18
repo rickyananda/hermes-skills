@@ -130,6 +130,7 @@ docker run -p 8080:8080 -v cloakprofiles:/data cloakhq/cloakbrowser-manager
 ## Reference Files
 
 - `references/web-registration-patterns.md` — Patterns for registering accounts on websites (terms modals, invitation codes, form submission workarounds, email verification)
+- `references/human-like-behavior-patterns.md` — Anti-detection patterns for platform automation: variable delays, typing indicators, lurk behavior, message mutation, AFK simulation. Applicable to Discord/Telegram/Slack bots, not just browser automation.
 - `scripts/ccode_register.py` — Ready-to-run bulk registration script for ccode.dev (edit EMAILS list, run via terminal)
 
 ## Pitfalls
